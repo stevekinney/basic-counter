@@ -6,10 +6,10 @@ export default class Application extends Component {
   render() {
     return (
       <section className="Counter">
-        <h1>Count: {this.state.count}</h1>
-        <button onClick={() => {}}>Increment</button>
-        <button onClick={() => {}}>Decrement</button>
-        <button onClick={() => {}}>Reset</button>
+        <h1>Count: {0}</h1>
+        <button onClick={() => {}} className="full-width">Increment</button>
+        <button onClick={() => {}} className="full-width">Decrement</button>
+        <button onClick={() => {}} className="full-width">Reset</button>
       </section>
     );
   }
