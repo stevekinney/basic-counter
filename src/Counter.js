@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-import Counter from './Counter';
-
-export default class Application extends Component {
+export default class Counter extends Component {
   render() {
     return (
       <section className="Counter">
